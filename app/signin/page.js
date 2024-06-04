@@ -65,10 +65,10 @@ export default function Login() {
               clipRule="evenodd"
             />
           </svg>
-          Home
+          Homepage
         </Link>
       </div>
-      <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-center mb-12">
+      <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-center mb-12 mt-12">
         Sign-in to {config.appName}{" "}
       </h1>
 
@@ -106,7 +106,7 @@ export default function Login() {
               />
             </svg>
           )}
-          Sign-up with Google
+          Continue with Google
         </button>
 
         <div className="divider text-xs text-base-content/50 font-medium">
@@ -122,7 +122,7 @@ export default function Login() {
             type="email"
             value={email}
             autoComplete="email"
-            placeholder="tom@cruise.com"
+            placeholder="bisexualwizard@email.com"
             className="input input-bordered w-full placeholder:opacity-60"
             onChange={(e) => setEmail(e.target.value)}
           />

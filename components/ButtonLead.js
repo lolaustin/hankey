@@ -35,7 +35,7 @@ const ButtonLead = ({ extraStyle }) => {
   };
   return (
     <form
-      className={`w-full max-w-xs space-y-3 ${extraStyle ? extraStyle : ""}`}
+      className={`w-full max-w-sm space-y-3 ${extraStyle ? extraStyle : ""}`}
       onSubmit={handleSubmit}
     >
       <input
@@ -44,7 +44,7 @@ const ButtonLead = ({ extraStyle }) => {
         value={email}
         ref={inputRef}
         autoComplete="email"
-        placeholder="tom@cruise.com"
+        placeholder="hi@gay.com"
         className="input input-bordered w-full placeholder:opacity-60"
         onChange={(e) => setEmail(e.target.value)}
       />

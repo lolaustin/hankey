@@ -8,7 +8,7 @@ const Hero = () => {
 
 
         <h1 className="font-extrabold text-5xl lg:text-7xl tracking-tight md:-mb-4">
-          meet queer people nearby
+          meet your chosen fam
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
           a new way to meet queer people in your neighborhood. meet online, have fun offline.
@@ -23,7 +23,7 @@ const Hero = () => {
           className="w-full"
           priority={true}
           width={500}
-          height={500}
+          height={200}
         />
       </div>
     </section>

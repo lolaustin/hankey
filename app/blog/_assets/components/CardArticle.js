@@ -28,7 +28,6 @@ const CardArticle = ({
               width={600}
               height={338}
               priority={isImagePriority}
-              placeholder="blur"
               className="aspect-video object-center object-cover hover:scale-[1.03] duration-200 ease-in-out"
             />
           </figure>

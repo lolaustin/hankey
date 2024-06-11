@@ -9,18 +9,7 @@ import logo from "@/app/icon.png";
 import config from "@/config";
 
 const links = [
-  {
-    href: "/#pricing",
-    label: "Pricing",
-  },
-  {
-    href: "/#testimonials",
-    label: "Reviews",
-  },
-  {
-    href: "/#faq",
-    label: "FAQ",
-  },
+
 ];
 
 const cta = <ButtonSignin extraStyle="btn-primary" />;
@@ -53,7 +42,6 @@ const Header = () => {
               src={logo}
               alt={`${config.appName} logo`}
               className="w-8"
-              placeholder="blur"
               priority={true}
               width={32}
               height={32}
@@ -120,7 +108,6 @@ const Header = () => {
                 src={logo}
                 alt={`${config.appName} logo`}
                 className="w-8"
-                placeholder="blur"
                 priority={true}
                 width={32}
                 height={32}
